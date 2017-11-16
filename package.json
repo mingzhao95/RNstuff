@@ -1,0 +1,40 @@
+{
+	"name": "myRNapp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"create-react-class": "^15.6.2",
+		"gulp": "^3.9.1",
+		"immutable": "^3.8.2",
+		"is-hotkey": "^0.1.1",
+		"prop-types": "^15.6.0",
+		"react": "^16.0.0",
+		"react-dom": "^16.1.0",
+		"react-dropzone": "^4.2.0",
+		"react-native": "0.50.3",
+		"react-native-banner": "^0.1.0",
+		"react-native-image-picker": "^0.26.7",
+		"react-native-in-app-notification": "^2.1.0",
+		"react-native-promisable-webview": "^1.0.2",
+		"react-native-wkwebview-reborn": "^1.10.0",
+		"react-router": "^4.2.0",
+		"rnpm": "^1.9.0",
+		"slate": "^0.25.4",
+		"slate-editor": "^3.0.0",
+		"slate-react": "^0.10.11",
+		"uuid": "^3.1.0"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
